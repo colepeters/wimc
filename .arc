@@ -8,3 +8,6 @@ enhance/styles-cribsheet
 
 @enhance-styles
 config theme.json
+
+@aws
+region us-east-1
