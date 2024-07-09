@@ -16,8 +16,38 @@ export default function Head(state) {
       ${getStyles.styleTag()}
       <link rel="icon" href="/_public/favicon.svg">
       <meta name="description" content="The Winnipeg Insight Meditation Community (WIMC) is a peer led, non sectarian sangha (or community) of meditation practitioners. We share a commitment to the study & practice of the dharma — the teachings of Buddhism — as a means to support one another in bringing awareness, compassion, and wisdom into our daily lives and the lives of our wider communities.">
-
       <style>
+        @font-face {
+          font-family: "Alegreya Sans";
+          font-weight: 300;
+          src: url("/_public/fonts/AlegreyaSans-Light.woff2") format("woff2");
+        }
+
+        @font-face {
+          font-family: "Alegreya Sans";
+          font-weight: 400;
+          src: url("/_public/fonts/AlegreyaSans-Regular.woff2") format("woff2");
+        }
+
+        @font-face {
+          font-family: "Alegreya Sans";
+          font-weight: 400;
+          font-style: italic;
+          src: url("/_public/fonts/AlegreyaSans-Italic.woff2") format("woff2");
+        }
+
+        @font-face {
+          font-family: "Alegreya Sans";
+          font-weight: 500;
+          src: url("/_public/fonts/AlegreyaSans-Medium.woff2") format("woff2");
+        }
+
+        @font-face {
+          font-family: "Alegreya Sans";
+          font-weight: 700;
+          src: url("/_public/fonts/AlegreyaSans-Bold.woff2") format("woff2");
+        }
+
         body {
           background-color: white;
           color: var(--carob);
