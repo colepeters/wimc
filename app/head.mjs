@@ -82,6 +82,10 @@ export default function Head(state) {
         a:focus {
           color: var(--accent);
         }
+
+        h2 {
+          color: var(--accent);
+        }
       </style>
     </head>
     <body class="font-sans leading4 pi0 pi5-lg pb4">
