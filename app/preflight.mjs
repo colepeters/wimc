@@ -9,6 +9,8 @@ function getPageTitle(path) {
     '/': 'Winnipeg Insight Meditation Community',
     '/orientation': 'Orientation — Winnipeg Insight Meditation Community',
     '/sessions': 'Weekly sessions — Winnipeg Insight Meditation Community',
+    '/newsletter': 'Newsletter — Winnipeg Insight Meditation Community',
+    '/contact': 'Contact — Winnipeg Insight Meditation Community',
   }
 
   return titleMap[path]
