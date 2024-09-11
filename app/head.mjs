@@ -54,6 +54,7 @@ export default function Head(state) {
           font-feature-settings: "liga";
           -webkit-font-smoothing: antialiased;
           -moz-osx-font-smoothing: grayscale;
+          text-wrap: pretty;
         }
 
         @media (prefers-color-scheme: dark) {
