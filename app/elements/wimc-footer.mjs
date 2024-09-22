@@ -13,8 +13,8 @@ export default function WIMCFooter({ html }) {
         border-block-start: 1px solid hsl(0deg 0% 50% / 0.25);
       }
     </style>
-    <hr class="mbs6 pbs2" />
-    <footer class="text-1">
+    <hr class="mbs6 pbs4" />
+    <footer class="text-1 mbe0">
       <h6 class="font-medium">Winnipeg Insight Meditation Community</h6>
       <nav class="mbs0">
         <ul class="list-none italic flex gap-2">
