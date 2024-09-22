@@ -36,7 +36,7 @@ export default function WIMCHeader({ html }) {
         </h1>
       </a>
 
-      <nav class="mb4 mb-none-lg">
+      <nav class="mb4 mb-none-lg flex-lg align-items-center-lg">
         <ul class="list-none flex flex-wrap text-1 uppercase tracking2 leading5 font-medium justify-content-center">
           <li>
             <a class="no-underline p-4" href="/">Home</a>
@@ -47,6 +47,8 @@ export default function WIMCHeader({ html }) {
           <li>
             <a class="no-underline p-4" href="/sessions">Sessions</a>
           </li>
+        </ul>
+        <ul class="list-none flex flex-wrap text-1 uppercase tracking2 leading5 font-medium justify-content-center">
           <li>
             <a class="no-underline p-4" href="/newsletter">Newsletter</a>
           </li>
