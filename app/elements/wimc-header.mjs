@@ -20,7 +20,7 @@ export default function WIMCHeader({ html }) {
         }
       }
 
-      @media (width >= 46em) {
+      @media (width >= 48em) {
         wimc-enso {
           translate: -50% 0;
         }
