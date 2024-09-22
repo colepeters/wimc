@@ -72,7 +72,7 @@ export default function Head(state) {
           transition: color 0.125s linear;
         }
 
-        a:not(.no-underline) {
+        a {
           text-decoration-line: underline;
           text-decoration-thickness: 0.0625em;
           text-underline-offset: 0.0875em;

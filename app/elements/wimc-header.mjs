@@ -28,7 +28,7 @@ export default function WIMCHeader({ html }) {
     </style>
 
     <header class="flex-lg align-items-center justify-content-between text-center text-start-lg">
-      <a class="relative inline-block no-underline" href="/">
+      <a class="relative inline-block no-underline pb0" href="/">
         <wimc-enso class="absolute inset-0 mb-auto mi-auto mi-none-lg"></wimc-enso>
         <h1 class="uppercase font-normal leading1">
           <span class="block text0 tracking2 font-medium">Winnipeg Insight</span>
@@ -37,21 +37,21 @@ export default function WIMCHeader({ html }) {
       </a>
 
       <nav class="mb4 mb-none-lg">
-        <ul class="list-none flex flex-wrap gap-2 gap0-lg text-1 uppercase tracking2 font-medium justify-content-center">
+        <ul class="list-none flex flex-wrap text-1 uppercase tracking2 leading5 font-medium justify-content-center">
           <li>
-            <a class="no-underline" href="/">Home</a>
+            <a class="no-underline p-4" href="/">Home</a>
           </li>
           <li>
-            <a class="no-underline" href="/orientation">Orientation</a>
+            <a class="no-underline p-4" href="/orientation">Orientation</a>
           </li>
           <li>
-            <a class="no-underline" href="/sessions">Sessions</a>
+            <a class="no-underline p-4" href="/sessions">Sessions</a>
           </li>
           <li>
-            <a class="no-underline" href="/newsletter">Newsletter</a>
+            <a class="no-underline p-4" href="/newsletter">Newsletter</a>
           </li>
           <li>
-            <a class="no-underline" href="/contact">Contact</a>
+            <a class="no-underline p-4" href="/contact">Contact</a>
           </li>
         </ul>
       </nav>
