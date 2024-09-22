@@ -22,6 +22,7 @@ export default function WIMCNewsletterForm({ html, state }) {
       input {
         border-block-end: 1px solid;
         border-color: color-mix(in srgb, var(--back), var(--fore) 30%);
+        border-radius: 0; /* Safari */
         background: transparent;
         padding-inline-start: 0.25ch;
         color: var(--fore);
