@@ -11,3 +11,4 @@ config theme.json
 
 @aws
 region us-east-1
+runtime nodejs20.x
