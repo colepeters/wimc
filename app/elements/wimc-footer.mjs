@@ -16,6 +16,7 @@ export default function WIMCFooter({ html }) {
     <hr class="mbs6 pbs4" />
     <footer class="text-1 mbe0">
       <h6 class="font-medium">Winnipeg Insight Meditation Community</h6>
+      <p>May all beings flourish.</p>
       <nav class="mbs0">
         <ul class="list-none italic flex gap-2">
           <li>
