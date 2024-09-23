@@ -15,7 +15,8 @@ export default function Head(state) {
       <title>${pageTitle}</title>
       ${getStyles.styleTag()}
       <link rel="icon" href="/_public/images/wimc-enso-ts.png">
-      <meta name="description" content="The Winnipeg Insight Meditation Community (WIMC) is a peer led, non sectarian sangha (or community) of meditation practitioners. We share a commitment to the study & practice of the dharma — the teachings of Buddhism — as a means to support one another in bringing awareness, compassion, and wisdom into our daily lives and the lives of our wider communities.">
+      <meta property="og:image" content="/_public/images/wimc-og.jpg" />
+      <meta name="description" content="The Winnipeg Insight Meditation Community (WIMC) is a peer led, non sectarian sangha. We share a commitment to the study & practice of the dharma — the teachings of Buddhism — as a means to support one another in bringing awareness, compassion, and wisdom into our daily lives and the lives of our wider communities.">
       <style>
         @font-face {
           font-family: "Alegreya Sans";
